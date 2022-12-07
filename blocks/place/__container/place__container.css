@@ -1,0 +1,32 @@
+.place__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  max-width: 484px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__container {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__container {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .place__container {
+    margin-left: 5%;
+      row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__container {
+    max-width: 288px;
+  }
+}
