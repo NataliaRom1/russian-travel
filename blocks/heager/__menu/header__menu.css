@@ -1,4 +1,4 @@
-.menu {
+.header__menu {
   display: flex;
   column-gap: 18px;
 }

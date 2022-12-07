@@ -9,15 +9,11 @@
 @import url(../blocks/root/root.css);
 
 
-/* меню */
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__footer/menu__footer.css);
-
-
 /* header */
 @import url(../blocks/heager/header.css);
 @import url(../blocks/heager/__logo/header__logo.css);
 @import url(../blocks/heager/__lang-link/header__lang-link.css);
+@import url(../blocks/heager/__menu/header__menu.css);
 
 
 /* main */
@@ -81,4 +77,5 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
 
