@@ -3,21 +3,22 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 80px;
-  margin: 0 auto;
+  padding: 0 11.563%;
   max-width: 984px;
-  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
+    margin: 0;
+    padding: 0 4.688%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
     gap: 73px;
+    padding: 0 3.125%;
   }
 }
 
@@ -25,5 +26,6 @@
   .places {
     max-width: 320px;
     gap: 50px;
+    padding: 0;
   }
 }

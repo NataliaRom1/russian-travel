@@ -12,6 +12,7 @@
   .place {
     grid-template-columns: fit-content(440px) auto;
     max-width: 928px;
+    width: 100%;
     column-gap: 32px;
   }
 }

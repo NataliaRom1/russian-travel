@@ -8,9 +8,9 @@
 @media (max-width: 768px) and (min-width: 321px) {
   .intro__title {
     /* 32px - 54px */
-    font-size: calc(2rem + 22 * (100vw - 320px) / 448);
+    font-size: calc(32px + 22 * (100vw - 320px) / 448);
     /* 35px - 58px */
-    line-height: calc(2.19rem + 23 * (100vw - 320px) / 448);
+    line-height: calc(35px + 23 * (100vw - 320px) / 448);
   }
 }
 

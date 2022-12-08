@@ -10,11 +10,11 @@
 @media (max-width: 767px) and (min-width: 321px) {
   .cover__subtitle {
     /* 14px - 18px */
-    font-size: calc(.88rem + 4 * (100vw - 320px) / 448);
+    font-size: calc(14px + 4 * (100vw - 320px) / 448);
     /* 16px - 22px */
-    line-height: calc(1rem + 6 * (100vw - 320px) / 448);
+    line-height: calc(16px + 6 * (100vw - 320px) / 448);
     /* 16px - 32px */
-    margin-top: calc(1rem + 16 * (100vw - 320px) /448);
+    margin-top: calc(16px + 16 * (100vw - 320px) / 448);
   }
 }
 

@@ -9,14 +9,14 @@
 @media (max-width: 1280px) and (min-width: 1025px) {
   .intro {
     /* 48px - 148px */
-    margin-left: calc(3rem + 100 * (100vw - 1024px) / 256);
+    margin-left: calc(48px + 100 * (100vw - 1024px) / 256);
   }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .intro {
     /* 24px - 48px */
-    margin-left: calc(1.5rem + 24 * (100vw - 768px) / 256);
+    margin-left: calc(24px + 24 * (100vw - 768px) / 256);
   }
 }
 
@@ -29,8 +29,8 @@
 @media (max-width: 768px) and (min-width: 321px) {
   .intro {
     /* 16px - 24px */
-    margin-left: calc(1rem + 8 * (100vw - 320px) / 448);
-    margin-right: calc(1rem + 8 * (100vw - 320px) / 448);
+    margin-left: calc(16px + 8 * (100vw - 320px) / 448);
+    margin-right: calc(16px + 8 * (100vw - 320px) / 448);
   }
 }
 
