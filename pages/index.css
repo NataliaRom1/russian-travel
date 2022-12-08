@@ -13,6 +13,7 @@
 @import url(../blocks/heager/header.css);
 @import url(../blocks/heager/__logo/header__logo.css);
 @import url(../blocks/heager/__lang-link/header__lang-link.css);
+@import url(../blocks/heager/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/heager/__menu/header__menu.css);
 
 
@@ -24,6 +25,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -53,7 +55,6 @@
 @import url(../blocks/place/place.css);
 /* заголовок */
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__title/_wider/place__title_wider.css);
 /* картинка */
 @import url(../blocks/place/__image/place__image.css);
 /* ссылка */
@@ -70,7 +71,6 @@
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__link/cover__link.css);
 
 /* footer */

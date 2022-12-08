@@ -5,10 +5,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:first-child {
-  text-decoration: underline;
-}
-
 .header__lang-link:hover {
   text-decoration: underline;
 }

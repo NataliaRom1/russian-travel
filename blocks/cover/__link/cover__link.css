@@ -1,8 +1,15 @@
 .cover__link {
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   position: relative;
   flex-direction: column;
   width: 100%;
   height: 100%;
+  transition: background ease 2s;
+  text-decoration: none;
+}
+
+.cover__link:hover {
+  background: rgba(42, 44, 47, .3);
 }

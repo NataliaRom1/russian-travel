@@ -5,36 +5,37 @@
   text-align: center;
   max-width: 560px;
   margin: 0;
-  position: absolute;
-  top: 245px;
+  padding-top: 245px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    top: 195px;
+    padding-top: 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    top: 115px;
+    padding-top: 115px;
+    font-size: 72px; 
+    line-height: 76px;
   }
 }
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media (max-width: 767px) and (min-width: 321px) {
   .cover__title {
     /* 32px - 72px */
     font-size: calc(2rem + 40 * (100vw - 320px) / 448);
     /* 35px - 76px */
     line-height: calc(2.19rem + 41 * (100vw - 320px) / 448);
     /* 32px - 115px */
-    top: calc(2rem + 83 * (100vw - 320px) /448);
+    padding-top: calc(2rem + 83 * (100vw - 320px) /448);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    top: 33px;
+    padding-top: 33px;
     font-size: 32px;
     line-height: 35px;
   }
