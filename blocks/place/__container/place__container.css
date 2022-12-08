@@ -7,20 +7,9 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__container {
-    max-width: 456px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__container {
-    max-width: 352px;
-  }
-}
-
 @media screen and (max-width: 740px) {
   .place__container {
+    margin: 0 auto;
     padding: 0 5%;
   }
 }

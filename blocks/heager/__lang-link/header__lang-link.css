@@ -14,7 +14,7 @@
     /* 18px - 24px */
     font-size: calc(18px + 6 * (100vw - 320px) / 448);
     /* 20px - 28px */
-    line-height: calc(20px+ 8 * (100vw - 320px) / 448);
+    line-height: calc(20px + 8 * (100vw - 320px) / 448);
   }
 }
 
